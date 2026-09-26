@@ -1,0 +1,63 @@
+name: 使用问题
+description: 反馈启动、学习页面、做题或来源验证时遇到的问题。
+title: "[使用问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请先查看[新手指南](https://github.com/carrotProgrammer/zhixu-cpa/blob/main/docs/getting-started.md)。
+        这是公开的问题页面，请不要提交个人学习数据库、账号密码或密钥。
+  - type: dropdown
+    id: usage
+    attributes:
+      label: 使用方式
+      options:
+        - 本地完整包
+        - 在线体验
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 使用版本或页面地址
+      description: 本地包填写版本号；在线体验填写出现问题的页面地址。
+      placeholder: "例如：v0.2.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: 操作系统
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Android
+        - iOS / iPadOS
+        - 其他或不确定
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器与 Node.js 版本
+      description: 填写你知道的信息即可。在线体验不需要填写 Node.js 版本。
+      placeholder: "例如：Chrome；Node.js 22.13.0"
+  - type: textarea
+    id: problem
+    attributes:
+      label: 发生了什么
+      description: 说明原本希望怎样、实际发生了什么，以及重现问题的步骤。
+      placeholder: |
+        1. 打开了哪个页面或启动文件？
+        2. 做了什么操作？
+        3. 出现了什么问题？
+        如涉及题目，请注明科目、章节或题组及题号。
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 报错信息
+      description: 可以粘贴相关报错的几行文字，提交前移除个人信息和密钥。
+      render: text

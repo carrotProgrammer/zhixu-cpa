@@ -1,0 +1,47 @@
+# This repository publishes documentation and release verification material.
+# Runtime bundles are distributed as Release attachments.
+node_modules/
+dist/
+build/
+.next/
+.vinext/
+outputs/
+work/
+resources/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.pack
+
+# Core application source belongs in the private source repository.
+app/
+components/
+lib/
+db/
+drizzle/
+worker/
+scripts/
+src/
+tests/
+vite.config.*
+
+# Local state, personal learning data and credentials.
+.wrangler/
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.pem
+*.key
+*private-key*
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db

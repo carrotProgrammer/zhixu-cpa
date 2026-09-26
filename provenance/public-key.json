@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "algorithm": "Ed25519",
+  "keyId": "09120ca92cb0761530829bb8a27dc7536307fcabb4b11b78b3155bf8275a84d0",
+  "repository": "https://github.com/carrotProgrammer/zhixu-cpa",
+  "spkiBase64": "MCowBQYDK2VwAyEAzygPWwNkBRy9FFUDp/BSObEeZF1yRy8P13VnqNhlAnY="
+}
