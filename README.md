@@ -6,7 +6,9 @@
 
 **[🌐 先在线体验](https://zhixucpa.cn/preview)** · **[📦 下载本地完整版](https://github.com/carrotProgrammer/zhixu-cpa/releases/latest/download/zhixu-cpa-full.zip)**
 
-在线体验无需安装、无需账号，体验中的作答不保存。想长期学习、保留记录，就下载本地版。
+在线学习无需安装、无需账号。作答进度、成绩、错题和随堂例题记录只保存在你自己的浏览器，刷新后可以继续，不上传到网站的学习数据库。
+
+在[「我的记录」](https://zhixucpa.cn/preview/records)可以导出备份；换设备时再导入。清除网站数据或使用无痕模式可能丢失记录，请定期备份。在线版仍需联网加载学习内容；想在自己的电脑上运行网站，可下载本地完整版。
 
 ## 怎么开始用
 
