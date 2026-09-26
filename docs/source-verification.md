@@ -1,4 +1,11 @@
-# 核对官方来源
+# 来源核对（可选）
+
+**普通使用无需阅读本页，也无需手动验证。** [下载完整版](https://github.com/carrotProgrammer/zhixu-cpa/releases/latest/download/zhixu-cpa-full.zip)，按 [启动步骤](getting-started.md) 打开后就能学习。
+
+这份说明供想核对转发包是否与官方版本一致的人使用。验证结果不作为启动或学习的前置条件。
+
+<details>
+<summary>需要核对来源时，展开技术说明</summary>
 
 **网站开发：carrotProgrammer**
 
@@ -73,4 +80,6 @@ node verify-origin.mjs
 
 本次发行的核心源码不公开。历史上曾公开的版本可能仍有他人留存，新的发行方式无法收回已有副本。
 
-[← 返回首页](../README.md) · [新手指南](getting-started.md) · [使用说明](../USAGE-NOTICE.md)
+</details>
+
+[← 返回首页](../README.md) · [开始使用](getting-started.md) · [使用说明](../USAGE-NOTICE.md)
